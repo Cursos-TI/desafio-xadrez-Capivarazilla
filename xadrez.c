@@ -48,19 +48,19 @@ void mov_cavalo(int n_cavalo){
 int main(){
     int torre = 5, bispo = 5, rainha = 8, cavalo = 1;
 
-    //Torre se move 5 casas para a direita
+    //Torre se move 5 casas para a direita.
     printf("Movimentos da Torre:\n");
     mov_torre(torre);
 
-    //Bispo se move 5 casas para a diagonal cima,direita
+    //Bispo se move 5 casas para a diagonal cima,direita.
     printf("\nMovimentos do Bispo\n");
     mov_bispo(bispo);
 
-    //Rainha se move 8 casas para a esquerda
+    //Rainha se move 8 casas para a esquerda.
     printf("\nMovimentos da Rainha\n");
     mov_rainha(rainha);
     
-    //Move o cavalo para baixo e esquerda
+    //Move o cavalo para baixo e esquerda.
     printf("\nMovimentos do Cavalo\n");
     mov_cavalo(cavalo);
     
